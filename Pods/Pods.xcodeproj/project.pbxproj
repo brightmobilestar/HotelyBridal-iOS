@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C3369B1B446A04B463845B /* MFSideMenuShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = DF67EB43E886B6CF894133AD /* MFSideMenuShadow.h */; };
+		12DB1452A9BBE810C66B9911 /* Pods-HolyBridal-MFSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5FD4EDFA0C85038244679 /* Pods-HolyBridal-MFSideMenu-dummy.m */; };
+		13F982904989F100042D9F82 /* Pods-HolyBridal-TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B5A9780C2AF27911467D4 /* Pods-HolyBridal-TPKeyboardAvoiding-dummy.m */; };
+		150EB2EC640DB7BC8B65148F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C8739F0492A104CE9575F /* Foundation.framework */; };
+		1C8B49E9388696D8A90F0DE6 /* MFSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DE097083CCDCB33EB34B3E /* MFSideMenu.h */; };
+		275D44C097D73EC894B8E98B /* UIViewController+MFSideMenuAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6654D97D4906EFE1A3FB09 /* UIViewController+MFSideMenuAdditions.h */; };
+		3F9FB8378474BF15F5F70C90 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A599F5FC519B575F9CDD70D /* SlideNavigationContorllerAnimatorScaleAndFade.h */; };
+		44A559BA3C1912F9658888AF /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78C673FF37438FA95652AF /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		59A51A433636900D3B78DE0B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECBD2FC6B91D8888D1FC08 /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A27421932D4CE3CEC935673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C8739F0492A104CE9575F /* Foundation.framework */; };
+		601B7FBC9742A35D52461DA6 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397F11EE1315C53529B31F7 /* UIViewController+MFSideMenuAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E4211878B14EDA9947135C7 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC21097852277B6DE9663E /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6FF6EEE3DABA9F3865BD11DD /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C9114E84D4F2ED8194302066 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		71517570FEBA554927596966 /* Pods-HolyBridal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A6F3626146FDAFD51A8D55 /* Pods-HolyBridal-dummy.m */; };
+		7A451BE746F2EF6B8EEBD7A7 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05741089B95F2A01AD7269DF /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DF03A208B548340B2531F80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F2941081AABA8BF0C9A1C4 /* QuartzCore.framework */; };
+		832A74FE17B023A1877509A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C8739F0492A104CE9575F /* Foundation.framework */; };
+		8D3395102A831457AB237231 /* MFSideMenuContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1D1B527FE8F94D23182497 /* MFSideMenuContainerViewController.h */; };
+		8E91550BDEF6A3D502B1D62A /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 186F5B984459C86ED3C793A5 /* SlideNavigationContorllerAnimatorSlideAndFade.h */; };
+		924F8FF698DF920C17C5BFC4 /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F6D3A278F2CE46CA18750D /* SlideNavigationContorllerAnimatorScale.h */; };
+		945DD3AE8378E1B77B2B2BFA /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 23491DB19AC25D84401F2FDF /* SlideNavigationContorllerAnimatorSlide.h */; };
+		A277B1DB23C34EC6D13B98F7 /* Pods-HolyBridal-iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A173C9F71F593108441E76FD /* Pods-HolyBridal-iOS-Slide-Menu-dummy.m */; };
+		A37BFDD813D275F2BFE91177 /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B05329866A0BBD625189A1EB /* SlideNavigationController.h */; };
+		B5FF7D489B8CAB3FF87D5513 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F00677997014F3C94F3176CE /* MFSideMenuContainerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD59195AF83F57D9F6EDE568 /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 554919541868B9D20BDFF125 /* SlideNavigationContorllerAnimator.h */; };
+		BFF52B495A2900BCA75970A5 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 07740FEFC835AE9913614DF3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; };
+		C3D8E1F8EF8D135C1BEFB2A2 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE56C6090E2FC08E7F47AE7 /* TPKeyboardAvoidingTableView.h */; };
+		C4B5AA9F05E4A38BCF4676BF /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE89CC770514005867D183B /* SlideNavigationController.m */; };
+		CC994BB2AC824714A7845722 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FFA365EE572D78F9F3F21B /* TPKeyboardAvoidingCollectionView.h */; };
+		CF7788FC4EA40E37B56A51C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B3B3B6479F52EBC6D0529B /* UIKit.framework */; };
+		D6628437B4C001815608F6CD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37480A0540CE0788548C5A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB788415DA8424478CEB3DF8 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2BD9F4A57BCF8A491FA3D9 /* TPKeyboardAvoidingScrollView.h */; };
+		DBC81D145F70EA5543DB5D67 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 347EACAA1333DF1DD6B792EE /* MFSideMenuShadow.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD53DDB37FE2BA7128E26082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63C8739F0492A104CE9575F /* Foundation.framework */; };
+		E4DA8F02ED831E51AE450F8E /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5EF3268500F264A7AE415 /* SlideNavigationContorllerAnimatorScale.m */; };
+		E9DA9DC039328D1BA045E06B /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DC9A6FE97AA1F64F3F91A0 /* SlideNavigationContorllerAnimatorFade.m */; };
+		F1590717BB3896A38DE98758 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250394B52E15DF792AC90CC /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		FB34D9506A6D4B3F43499A0D /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF845982ECB7150616466C0 /* SlideNavigationContorllerAnimatorFade.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E103DF2BD61C117213E0F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00AFE57ABD4BF7B9ED24887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449ED08292B582AC51524879;
+			remoteInfo = "Pods-HolyBridal-TPKeyboardAvoiding";
+		};
+		7EF9F69430F2546B46AF811F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00AFE57ABD4BF7B9ED24887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540D19D8EED6B4DD09492A3C;
+			remoteInfo = "Pods-HolyBridal-MFSideMenu";
+		};
+		BBF7A7048023CE3F1A161689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00AFE57ABD4BF7B9ED24887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4E6748BE72513F6488E2FA;
+			remoteInfo = "Pods-HolyBridal-iOS-Slide-Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046D33D69B2A4F0E121C7F03 /* Pods-HolyBridal-TPKeyboardAvoiding-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-TPKeyboardAvoiding-Private.xcconfig"; sourceTree = "<group>"; };
+		05741089B95F2A01AD7269DF /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		07740FEFC835AE9913614DF3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		09E08683809DFF7E86A6B361 /* Pods-HolyBridal-MFSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HolyBridal-MFSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		17D5EF3268500F264A7AE415 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		186F5B984459C86ED3C793A5 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		1AA8E5B5C937BC3DCFA8DAB3 /* libPods-HolyBridal-TPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HolyBridal-TPKeyboardAvoiding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E8B33E94286629906DC73 /* Pods-HolyBridal-iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
+		23491DB19AC25D84401F2FDF /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		251685B46548CFFF8DADE5CB /* Pods-HolyBridal-iOS-Slide-Menu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-iOS-Slide-Menu-Private.xcconfig"; sourceTree = "<group>"; };
+		28C9593674991A7184D86119 /* Pods-HolyBridal-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HolyBridal-environment.h"; sourceTree = "<group>"; };
+		2E78C673FF37438FA95652AF /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		347EACAA1333DF1DD6B792EE /* MFSideMenuShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSideMenuShadow.m; path = MFSideMenu/MFSideMenuShadow.m; sourceTree = "<group>"; };
+		4FBA82E92F1F3A3B473F0713 /* libPods-HolyBridal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HolyBridal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		554919541868B9D20BDFF125 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		5A3CE9E2CED902E5B03AEC43 /* Pods-HolyBridal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HolyBridal-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B51E01B13E3975E963F9ADA /* Pods-HolyBridal-TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HolyBridal-TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		5B560D2AA41B6B729955AEFA /* libPods-HolyBridal-iOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HolyBridal-iOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE56C6090E2FC08E7F47AE7 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		5ECC21097852277B6DE9663E /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		689E920360579CBFD97C0DF3 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
+		6A599F5FC519B575F9CDD70D /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		71C5FD4EDFA0C85038244679 /* Pods-HolyBridal-MFSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HolyBridal-MFSideMenu-dummy.m"; sourceTree = "<group>"; };
+		74A74C2D4B8437CA42B54A33 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
+		7BDA681565ED056F3F1CE513 /* Pods-HolyBridal-MFSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-MFSideMenu.xcconfig"; sourceTree = "<group>"; };
+		7CD7CC5C4E66C8080C624481 /* Pods-HolyBridal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HolyBridal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82F2941081AABA8BF0C9A1C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8397F11EE1315C53529B31F7 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MFSideMenuAdditions.m"; path = "MFSideMenu/UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		84B3B3B6479F52EBC6D0529B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		85E26DB20DD45AAC3794DDCA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87F6D3A278F2CE46CA18750D /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		9250394B52E15DF792AC90CC /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		9B2BD9F4A57BCF8A491FA3D9 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		A173C9F71F593108441E76FD /* Pods-HolyBridal-iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HolyBridal-iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
+		AF37480A0540CE0788548C5A /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		B05329866A0BBD625189A1EB /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
+		B8DC9A6FE97AA1F64F3F91A0 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		BF1D1B527FE8F94D23182497 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenuContainerViewController.h; path = MFSideMenu/MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		C3A6F3626146FDAFD51A8D55 /* Pods-HolyBridal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HolyBridal-dummy.m"; sourceTree = "<group>"; };
+		C9114E84D4F2ED8194302066 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		CB199EEFF8D0FC4311ECB075 /* Pods-HolyBridal-TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-TPKeyboardAvoiding.xcconfig"; sourceTree = "<group>"; };
+		CEE5468BF0AE533A7DA53480 /* Pods-HolyBridal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8B5A9780C2AF27911467D4 /* Pods-HolyBridal-TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HolyBridal-TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		D0DE097083CCDCB33EB34B3E /* MFSideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenu.h; path = MFSideMenu/MFSideMenu.h; sourceTree = "<group>"; };
+		D63C8739F0492A104CE9575F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7FFA365EE572D78F9F3F21B /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		DABA7C21D2D6D3C53606DF3F /* Pods-HolyBridal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HolyBridal-resources.sh"; sourceTree = "<group>"; };
+		DBE89CC770514005867D183B /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
+		DF67EB43E886B6CF894133AD /* MFSideMenuShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenuShadow.h; path = MFSideMenu/MFSideMenuShadow.h; sourceTree = "<group>"; };
+		ED3206FADB2216D9D8F290A8 /* libPods-HolyBridal-MFSideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HolyBridal-MFSideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF845982ECB7150616466C0 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		F00677997014F3C94F3176CE /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSideMenuContainerViewController.m; path = MFSideMenu/MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		F0A8BEF483B6A6B5A12EE43C /* Pods-HolyBridal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal.release.xcconfig"; sourceTree = "<group>"; };
+		F22BE4494F41852A67313923 /* Pods-HolyBridal-iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HolyBridal-iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
+		F378B51150087BA0C482335C /* Pods-HolyBridal-MFSideMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HolyBridal-MFSideMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		FCECBD2FC6B91D8888D1FC08 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		FE6654D97D4906EFE1A3FB09 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MFSideMenuAdditions.h"; path = "MFSideMenu/UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE231C82C61697F9C3682FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A74FE17B023A1877509A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B33FED295ED04739F7EDF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150EB2EC640DB7BC8B65148F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A99E24A21CEADD79D87716F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27421932D4CE3CEC935673 /* Foundation.framework in Frameworks */,
+				CF7788FC4EA40E37B56A51C4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BF9E31C41AAFF2A51A05AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD53DDB37FE2BA7128E26082 /* Foundation.framework in Frameworks */,
+				7DF03A208B548340B2531F80 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DD5D7787B4EDC38FEFCB39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB199EEFF8D0FC4311ECB075 /* Pods-HolyBridal-TPKeyboardAvoiding.xcconfig */,
+				046D33D69B2A4F0E121C7F03 /* Pods-HolyBridal-TPKeyboardAvoiding-Private.xcconfig */,
+				CF8B5A9780C2AF27911467D4 /* Pods-HolyBridal-TPKeyboardAvoiding-dummy.m */,
+				5B51E01B13E3975E963F9ADA /* Pods-HolyBridal-TPKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HolyBridal-TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		252A39FC51BD82A1A036EAF2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D63C8739F0492A104CE9575F /* Foundation.framework */,
+				82F2941081AABA8BF0C9A1C4 /* QuartzCore.framework */,
+				84B3B3B6479F52EBC6D0529B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		322CE08E1AE8AF95B3231F6D = {
+			isa = PBXGroup;
+			children = (
+				85E26DB20DD45AAC3794DDCA /* Podfile */,
+				AA2677AE651A8CBF52DA4520 /* Frameworks */,
+				DF928840E25360BCF665335E /* Pods */,
+				DC7324A3399573A0F8BDB5A0 /* Products */,
+				E6071F8CA2D4A7A673E046E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5512510A64DF61FBE6CFC0B0 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFA365EE572D78F9F3F21B /* TPKeyboardAvoidingCollectionView.h */,
+				05741089B95F2A01AD7269DF /* TPKeyboardAvoidingCollectionView.m */,
+				9B2BD9F4A57BCF8A491FA3D9 /* TPKeyboardAvoidingScrollView.h */,
+				FCECBD2FC6B91D8888D1FC08 /* TPKeyboardAvoidingScrollView.m */,
+				5DE56C6090E2FC08E7F47AE7 /* TPKeyboardAvoidingTableView.h */,
+				5ECC21097852277B6DE9663E /* TPKeyboardAvoidingTableView.m */,
+				07740FEFC835AE9913614DF3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				AF37480A0540CE0788548C5A /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				09DD5D7787B4EDC38FEFCB39 /* Support Files */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		6FE97EAD8EACD9AF4A484AC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				689E920360579CBFD97C0DF3 /* menu-button.png */,
+				74A74C2D4B8437CA42B54A33 /* menu-button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F92D79DE537C4E51F5ED161 /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				554919541868B9D20BDFF125 /* SlideNavigationContorllerAnimator.h */,
+				EDF845982ECB7150616466C0 /* SlideNavigationContorllerAnimatorFade.h */,
+				B8DC9A6FE97AA1F64F3F91A0 /* SlideNavigationContorllerAnimatorFade.m */,
+				87F6D3A278F2CE46CA18750D /* SlideNavigationContorllerAnimatorScale.h */,
+				17D5EF3268500F264A7AE415 /* SlideNavigationContorllerAnimatorScale.m */,
+				6A599F5FC519B575F9CDD70D /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				9250394B52E15DF792AC90CC /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				23491DB19AC25D84401F2FDF /* SlideNavigationContorllerAnimatorSlide.h */,
+				C9114E84D4F2ED8194302066 /* SlideNavigationContorllerAnimatorSlide.m */,
+				186F5B984459C86ED3C793A5 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				2E78C673FF37438FA95652AF /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				B05329866A0BBD625189A1EB /* SlideNavigationController.h */,
+				DBE89CC770514005867D183B /* SlideNavigationController.m */,
+				6FE97EAD8EACD9AF4A484AC1 /* Resources */,
+				9EFA5552738FD96A15C4A3A6 /* Support Files */,
+			);
+			path = "iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		8B1CE329B9F193D060C9EFCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BDA681565ED056F3F1CE513 /* Pods-HolyBridal-MFSideMenu.xcconfig */,
+				F378B51150087BA0C482335C /* Pods-HolyBridal-MFSideMenu-Private.xcconfig */,
+				71C5FD4EDFA0C85038244679 /* Pods-HolyBridal-MFSideMenu-dummy.m */,
+				09E08683809DFF7E86A6B361 /* Pods-HolyBridal-MFSideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HolyBridal-MFSideMenu";
+			sourceTree = "<group>";
+		};
+		9EFA5552738FD96A15C4A3A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				203E8B33E94286629906DC73 /* Pods-HolyBridal-iOS-Slide-Menu.xcconfig */,
+				251685B46548CFFF8DADE5CB /* Pods-HolyBridal-iOS-Slide-Menu-Private.xcconfig */,
+				A173C9F71F593108441E76FD /* Pods-HolyBridal-iOS-Slide-Menu-dummy.m */,
+				F22BE4494F41852A67313923 /* Pods-HolyBridal-iOS-Slide-Menu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HolyBridal-iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		AA2677AE651A8CBF52DA4520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252A39FC51BD82A1A036EAF2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD02CCA0EAF5EA1906F06024 /* Pods-HolyBridal */ = {
+			isa = PBXGroup;
+			children = (
+				7CD7CC5C4E66C8080C624481 /* Pods-HolyBridal-acknowledgements.markdown */,
+				5A3CE9E2CED902E5B03AEC43 /* Pods-HolyBridal-acknowledgements.plist */,
+				C3A6F3626146FDAFD51A8D55 /* Pods-HolyBridal-dummy.m */,
+				28C9593674991A7184D86119 /* Pods-HolyBridal-environment.h */,
+				DABA7C21D2D6D3C53606DF3F /* Pods-HolyBridal-resources.sh */,
+				CEE5468BF0AE533A7DA53480 /* Pods-HolyBridal.debug.xcconfig */,
+				F0A8BEF483B6A6B5A12EE43C /* Pods-HolyBridal.release.xcconfig */,
+			);
+			name = "Pods-HolyBridal";
+			path = "Target Support Files/Pods-HolyBridal";
+			sourceTree = "<group>";
+		};
+		DC7324A3399573A0F8BDB5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FBA82E92F1F3A3B473F0713 /* libPods-HolyBridal.a */,
+				ED3206FADB2216D9D8F290A8 /* libPods-HolyBridal-MFSideMenu.a */,
+				1AA8E5B5C937BC3DCFA8DAB3 /* libPods-HolyBridal-TPKeyboardAvoiding.a */,
+				5B560D2AA41B6B729955AEFA /* libPods-HolyBridal-iOS-Slide-Menu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF928840E25360BCF665335E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5C4F86F7C94245A5ADEEC /* MFSideMenu */,
+				5512510A64DF61FBE6CFC0B0 /* TPKeyboardAvoiding */,
+				7F92D79DE537C4E51F5ED161 /* iOS-Slide-Menu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6071F8CA2D4A7A673E046E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD02CCA0EAF5EA1906F06024 /* Pods-HolyBridal */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EAC5C4F86F7C94245A5ADEEC /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE097083CCDCB33EB34B3E /* MFSideMenu.h */,
+				BF1D1B527FE8F94D23182497 /* MFSideMenuContainerViewController.h */,
+				F00677997014F3C94F3176CE /* MFSideMenuContainerViewController.m */,
+				DF67EB43E886B6CF894133AD /* MFSideMenuShadow.h */,
+				347EACAA1333DF1DD6B792EE /* MFSideMenuShadow.m */,
+				FE6654D97D4906EFE1A3FB09 /* UIViewController+MFSideMenuAdditions.h */,
+				8397F11EE1315C53529B31F7 /* UIViewController+MFSideMenuAdditions.m */,
+				8B1CE329B9F193D060C9EFCE /* Support Files */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E19DD6AB3B124F91DEBE4CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC994BB2AC824714A7845722 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				DB788415DA8424478CEB3DF8 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				C3D8E1F8EF8D135C1BEFB2A2 /* TPKeyboardAvoidingTableView.h in Headers */,
+				BFF52B495A2900BCA75970A5 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCA25E7B4C6C22341506734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD59195AF83F57D9F6EDE568 /* SlideNavigationContorllerAnimator.h in Headers */,
+				FB34D9506A6D4B3F43499A0D /* SlideNavigationContorllerAnimatorFade.h in Headers */,
+				924F8FF698DF920C17C5BFC4 /* SlideNavigationContorllerAnimatorScale.h in Headers */,
+				3F9FB8378474BF15F5F70C90 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */,
+				945DD3AE8378E1B77B2B2BFA /* SlideNavigationContorllerAnimatorSlide.h in Headers */,
+				8E91550BDEF6A3D502B1D62A /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */,
+				A37BFDD813D275F2BFE91177 /* SlideNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F481550E24752B23D5980D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8B49E9388696D8A90F0DE6 /* MFSideMenu.h in Headers */,
+				8D3395102A831457AB237231 /* MFSideMenuContainerViewController.h in Headers */,
+				07C3369B1B446A04B463845B /* MFSideMenuShadow.h in Headers */,
+				275D44C097D73EC894B8E98B /* UIViewController+MFSideMenuAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A4E6748BE72513F6488E2FA /* Pods-HolyBridal-iOS-Slide-Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248971BCD65AC7094CDA4058 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-iOS-Slide-Menu" */;
+			buildPhases = (
+				77001C79EE6A7CE48D0761C2 /* Sources */,
+				2A99E24A21CEADD79D87716F /* Frameworks */,
+				3CCA25E7B4C6C22341506734 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HolyBridal-iOS-Slide-Menu";
+			productName = "Pods-HolyBridal-iOS-Slide-Menu";
+			productReference = 5B560D2AA41B6B729955AEFA /* libPods-HolyBridal-iOS-Slide-Menu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		449ED08292B582AC51524879 /* Pods-HolyBridal-TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E387530D4FB8789C0793D8 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-TPKeyboardAvoiding" */;
+			buildPhases = (
+				DDF4C19D09D6252FF8528539 /* Sources */,
+				1B33FED295ED04739F7EDF46 /* Frameworks */,
+				0E19DD6AB3B124F91DEBE4CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HolyBridal-TPKeyboardAvoiding";
+			productName = "Pods-HolyBridal-TPKeyboardAvoiding";
+			productReference = 1AA8E5B5C937BC3DCFA8DAB3 /* libPods-HolyBridal-TPKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		540D19D8EED6B4DD09492A3C /* Pods-HolyBridal-MFSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017343437E61F32C0AA337E0 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-MFSideMenu" */;
+			buildPhases = (
+				1E2C3F294715E17A9798E67F /* Sources */,
+				36BF9E31C41AAFF2A51A05AE /* Frameworks */,
+				F9F481550E24752B23D5980D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HolyBridal-MFSideMenu";
+			productName = "Pods-HolyBridal-MFSideMenu";
+			productReference = ED3206FADB2216D9D8F290A8 /* libPods-HolyBridal-MFSideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84F72EA0CD7AF09BA4F7E6F8 /* Pods-HolyBridal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201F298DEC5390BFD3C57BC0 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal" */;
+			buildPhases = (
+				278D7F897F25D9D89662611E /* Sources */,
+				0DE231C82C61697F9C3682FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3771F06A42821A397DF56A /* PBXTargetDependency */,
+				FC706163DB32E5AE771818CF /* PBXTargetDependency */,
+				8196924DE130FF3106C7ECD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HolyBridal";
+			productName = "Pods-HolyBridal";
+			productReference = 4FBA82E92F1F3A3B473F0713 /* libPods-HolyBridal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00AFE57ABD4BF7B9ED24887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 4B1F675C5F11758FAB22279D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 322CE08E1AE8AF95B3231F6D;
+			productRefGroup = DC7324A3399573A0F8BDB5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F72EA0CD7AF09BA4F7E6F8 /* Pods-HolyBridal */,
+				540D19D8EED6B4DD09492A3C /* Pods-HolyBridal-MFSideMenu */,
+				449ED08292B582AC51524879 /* Pods-HolyBridal-TPKeyboardAvoiding */,
+				2A4E6748BE72513F6488E2FA /* Pods-HolyBridal-iOS-Slide-Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2C3F294715E17A9798E67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FF7D489B8CAB3FF87D5513 /* MFSideMenuContainerViewController.m in Sources */,
+				DBC81D145F70EA5543DB5D67 /* MFSideMenuShadow.m in Sources */,
+				12DB1452A9BBE810C66B9911 /* Pods-HolyBridal-MFSideMenu-dummy.m in Sources */,
+				601B7FBC9742A35D52461DA6 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278D7F897F25D9D89662611E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71517570FEBA554927596966 /* Pods-HolyBridal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77001C79EE6A7CE48D0761C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A277B1DB23C34EC6D13B98F7 /* Pods-HolyBridal-iOS-Slide-Menu-dummy.m in Sources */,
+				E9DA9DC039328D1BA045E06B /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				E4DA8F02ED831E51AE450F8E /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				F1590717BB3896A38DE98758 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				6FF6EEE3DABA9F3865BD11DD /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				44A559BA3C1912F9658888AF /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				C4B5AA9F05E4A38BCF4676BF /* SlideNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4C19D09D6252FF8528539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F982904989F100042D9F82 /* Pods-HolyBridal-TPKeyboardAvoiding-dummy.m in Sources */,
+				7A451BE746F2EF6B8EEBD7A7 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				59A51A433636900D3B78DE0B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				6E4211878B14EDA9947135C7 /* TPKeyboardAvoidingTableView.m in Sources */,
+				D6628437B4C001815608F6CD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A3771F06A42821A397DF56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HolyBridal-MFSideMenu";
+			target = 540D19D8EED6B4DD09492A3C /* Pods-HolyBridal-MFSideMenu */;
+			targetProxy = 7EF9F69430F2546B46AF811F /* PBXContainerItemProxy */;
+		};
+		8196924DE130FF3106C7ECD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HolyBridal-iOS-Slide-Menu";
+			target = 2A4E6748BE72513F6488E2FA /* Pods-HolyBridal-iOS-Slide-Menu */;
+			targetProxy = BBF7A7048023CE3F1A161689 /* PBXContainerItemProxy */;
+		};
+		FC706163DB32E5AE771818CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HolyBridal-TPKeyboardAvoiding";
+			target = 449ED08292B582AC51524879 /* Pods-HolyBridal-TPKeyboardAvoiding */;
+			targetProxy = 6E103DF2BD61C117213E0F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26B3AEDEB416C5A929F5EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251685B46548CFFF8DADE5CB /* Pods-HolyBridal-iOS-Slide-Menu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-iOS-Slide-Menu/Pods-HolyBridal-iOS-Slide-Menu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2A45BA90AC17B99C8FB9ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3607F592D7DD29D644DE6C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F378B51150087BA0C482335C /* Pods-HolyBridal-MFSideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-MFSideMenu/Pods-HolyBridal-MFSideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3925C7EBF0A7289286A51275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A8BEF483B6A6B5A12EE43C /* Pods-HolyBridal.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		797B66125D97D2C28E4DE671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046D33D69B2A4F0E121C7F03 /* Pods-HolyBridal-TPKeyboardAvoiding-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-TPKeyboardAvoiding/Pods-HolyBridal-TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97FF704659808BAB70D1C630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046D33D69B2A4F0E121C7F03 /* Pods-HolyBridal-TPKeyboardAvoiding-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-TPKeyboardAvoiding/Pods-HolyBridal-TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7711BA5CCAB9F85E15D0D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251685B46548CFFF8DADE5CB /* Pods-HolyBridal-iOS-Slide-Menu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-iOS-Slide-Menu/Pods-HolyBridal-iOS-Slide-Menu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C9A03DC50A00336120B02321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE5468BF0AE533A7DA53480 /* Pods-HolyBridal.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3BD286920B57E71EF039F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F378B51150087BA0C482335C /* Pods-HolyBridal-MFSideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HolyBridal-MFSideMenu/Pods-HolyBridal-MFSideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E90C0CEAEA59A1B6CAE01C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017343437E61F32C0AA337E0 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-MFSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3607F592D7DD29D644DE6C3D /* Debug */,
+				E3BD286920B57E71EF039F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201F298DEC5390BFD3C57BC0 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A03DC50A00336120B02321 /* Debug */,
+				3925C7EBF0A7289286A51275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248971BCD65AC7094CDA4058 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-iOS-Slide-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B3AEDEB416C5A929F5EC2A /* Debug */,
+				C7711BA5CCAB9F85E15D0D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1F675C5F11758FAB22279D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90C0CEAEA59A1B6CAE01C4D /* Debug */,
+				2A45BA90AC17B99C8FB9ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E387530D4FB8789C0793D8 /* Build configuration list for PBXNativeTarget "Pods-HolyBridal-TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FF704659808BAB70D1C630 /* Debug */,
+				797B66125D97D2C28E4DE671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00AFE57ABD4BF7B9ED24887 /* Project object */;
+}

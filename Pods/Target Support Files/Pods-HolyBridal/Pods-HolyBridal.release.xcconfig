@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MFSideMenu" "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding" "${PODS_ROOT}/Headers/Public/iOS-Slide-Menu"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MFSideMenu" -isystem "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding" -isystem "${PODS_ROOT}/Headers/Public/iOS-Slide-Menu"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-HolyBridal-MFSideMenu" -l"Pods-HolyBridal-TPKeyboardAvoiding" -l"Pods-HolyBridal-iOS-Slide-Menu" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

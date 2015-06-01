@@ -1,0 +1,16 @@
+PODS:
+  - iOS-Slide-Menu (1.4.5)
+  - MFSideMenu (0.5.5)
+  - TPKeyboardAvoiding (1.2.6)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu
+  - MFSideMenu
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 8f4b77cd2e153275e0e7d5b9cfe94f2abc7e0594
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
+
+COCOAPODS: 0.36.0

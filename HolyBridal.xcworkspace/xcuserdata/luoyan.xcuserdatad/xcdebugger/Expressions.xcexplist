@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[TextFldFormatter getInstance]:TextFldFormatter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewCtrlRegister onBtnSelectDate:]:ViewCtrlRegister.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_strToday">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewCtrlFindSuppliers onBtnNavSearch:]:ViewCtrlFindSuppliers.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ConnectWithServer requestContact:]:ConnectWithServer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
